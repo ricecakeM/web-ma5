@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  flex: 35%;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.white-box {
+  background-color: white;
+}
+
+.black-box {
+  background-color: black;
+}
